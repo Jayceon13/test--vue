@@ -8,7 +8,7 @@ configureWebpack: {
         splitChunks: false,
     },
     output: {
-        filename: 'apps.js?v=1.0.1',
+        filename: 'apps.js',
     },
 
 },
