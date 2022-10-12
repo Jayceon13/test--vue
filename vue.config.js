@@ -9,9 +9,9 @@ configureWebpack: {
     },
     output: {
         filename: 'apps.js',
+        clean: true,
     },
 
 },
-        cache: false,
 }
 )
