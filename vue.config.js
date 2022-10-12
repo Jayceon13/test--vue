@@ -10,7 +10,8 @@ configureWebpack: {
     output: {
         filename: 'apps.js',
     },
-    filenameHashing: false,
+
 },
+        filenameHashing: false,
 }
 )
