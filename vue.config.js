@@ -10,5 +10,11 @@ configureWebpack: {
     output: {
         filename: 'apps.js',
     },
+    devServer: {
+        historyApiFallback: true,
+        open: true,
+        compress: true,
+        hot: true,
+    },
 },
 })
