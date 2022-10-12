@@ -12,6 +12,6 @@ configureWebpack: {
     },
 
 },
-        filenameHashing: false,
+        cache: false,
 }
 )
