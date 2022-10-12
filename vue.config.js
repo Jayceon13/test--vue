@@ -1,11 +1,7 @@
 const { defineConfig } = require('@vue/cli-service')
-module.exports = {
-  //...
-  optimization: {
-    splitChunks: {
-      cacheGroups: {
-        default: false,
-      },
+module.exports = defineConfig({
+    //...
+    optimization: {
+      splitChunks: false,
     },
-  },
-};
+})
