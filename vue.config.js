@@ -9,7 +9,6 @@ configureWebpack: {
     },
     output: {
         filename: 'apps.js',
-        clean: true,
     },
 
 },
