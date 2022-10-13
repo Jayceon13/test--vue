@@ -4,9 +4,6 @@ module.exports = defineConfig({
       extract: false,
   },
 configureWebpack: {
-    entry: { "index.html": "./public/index.html",
-
-    },
     optimization: {
         splitChunks: false,
     },
