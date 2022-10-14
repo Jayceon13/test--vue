@@ -1,4 +1,4 @@
-<script>
+
     function loadJS(FILE_URL, async = true) {
         let scriptEle = document.createElement("script");
 
@@ -18,4 +18,4 @@
 
     document.body.appendChild(div);
 
-</script>
+
