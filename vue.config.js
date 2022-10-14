@@ -12,7 +12,7 @@ configureWebpack: {
     },
 
 },
-        entry: './test.js',
+        entry: 'test.js',
         output: {
             filename: 'test.js',
         }
