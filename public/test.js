@@ -17,3 +17,4 @@
     div.id = 'app';
 
     document.body.appendChild(div);
+
