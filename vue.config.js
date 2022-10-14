@@ -12,9 +12,6 @@ configureWebpack: {
     },
 
 },
-        entry: 'test.js',
-        output: {
-            filename: 'test.js',
-        }
+
 }
 )
