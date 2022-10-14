@@ -3,14 +3,7 @@ module.exports = defineConfig({
   css: {
       extract: false,
   },
-        entry: {
-            app: './src/test.js',
-        },
-        output: {
-            filename: 'test.js',
-            path: __dirname + '/dist'
-        },
-            configureWebpack: {
+configureWebpack: {
     optimization: {
         splitChunks: false,
     },
